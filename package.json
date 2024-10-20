@@ -1,5 +1,14 @@
 {
+  "homepage": "http://WendyRamos.github.io/bento-grid/",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "tailwindcss build src/input.css -o src/output.css"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
