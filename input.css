@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .responsive-grid {
+    @apply sm:w-full lg:w-[86%] xl:w-[60%] grid sm:grid-cols-4 sm:grid-rows-7fr sm:gap-3 lg:gap-6 grid-cols-1 text-black m-6 max-sm:gap-6;
+  }
+  .card-create-content {
+    @apply sm:row-start-1 sm:row-end-5 bg-yellow-light p-5 flex flex-col justify-center rounded-lg max-sm:order-7
+  }
+  .card-social-media {
+    @apply sm:col-span-2 sm:row-start-1 sm:row-end-4 bg-purple-medium rounded-lg p-9 flex flex-col items-center max-sm:order-1
+  }
+  .card-schedule-social-media {
+    @apply sm:row-start-1 sm:row-end-6 bg-purple-light flex flex-col rounded-lg justify-center py-5 sm:pl-5 overflow-hidden max-sm:order-4 max-sm:items-center
+  }
+  .card-multi-platform {
+    @apply sm:col-start-2 sm:row-start-4 sm:row-end-6 flex flex-col bg-white rounded-lg p-5 max-sm:order-2
+  }
+  .card-posting-schedule {
+    @apply sm:col-start-3 sm:row-start-4 sm:row-end-6 bg-yellow-medium flex flex-col items-center rounded-lg pt-5 px-5 max-sm:order-3
+  }
+  .card-content-ai {
+    @apply sm:col-start-1 sm:row-start-5 sm:row-end-8 bg-yellow-medium rounded-lg p-4 max-sm:order-8
+  }
+  .card-audience {
+    @apply sm:col-start-2 sm:row-start-6 sm:row-end-8 bg-white flex flex-col rounded-lg p-5 max-sm:order-6
+  }
+  .card-grow-followers {
+    @apply sm:col-span-2 sm:row-start-6 sm:row-end-8 bg-purple-medium flex sm:flex-row max-sm:flex-col rounded-lg p-5 items-center max-sm:order-5
+  }
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  font-style: italic;
+  src: url('./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+}
