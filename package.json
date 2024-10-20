@@ -5,8 +5,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d",
-    "build": "tailwindcss build src/input.css -o src/output.css"
+    "deploy": "gh-pages -d src",
+    "build": "tailwindcss -i src/input.css -o src/output.css"
   },
   "dependencies": {
     "gh-pages": "^6.2.0"
