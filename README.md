@@ -19,7 +19,7 @@ Puedes ver el proyecto en vivo aquí:
 ## Cómo Usarlo
 1. Clona este repositorio:
    ```bash
-   [git clone https://github.com/usuario/repo.git](https://github.com/WendyRamos/bento-grid.git)
+   [git clone (https://github.com/WendyRamos/bento-grid.git)]
 
 ## Estado del Proyecto
 Proyecto completado ✅
